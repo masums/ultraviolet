@@ -20,11 +20,9 @@
     <file src="..\Binaries\AnyCPU\Signed\TwistedLogik.Nucleus.XML" target="lib\net40\"/>
     <file src="..\Binaries\AnyCPU\Signed\TwistedLogik.Nucleus.pdb" target="lib\net40\"/>
     <file src="..\Binaries\Android\Signed\TwistedLogik.Nucleus.dll" target="lib\MonoAndroid60\"/>
-    <file src="..\Binaries\Android\Signed\TwistedLogik.Nucleus.dll.mdb" target="lib\MonoAndroid60\"/>
     <file src="..\Binaries\Android\Signed\TwistedLogik.Nucleus.XML" target="lib\MonoAndroid60\"/>
     <file src="..\Binaries\Android\Signed\TwistedLogik.Nucleus.pdb" target="lib\MonoAndroid60\"/>
     <file src="..\Binaries\iOS\Signed\TwistedLogik.Nucleus.dll" target="lib\Xamarin.iOS10\"/>
-    <file src="..\Binaries\iOS\Signed\TwistedLogik.Nucleus.dll.mdb" target="lib\Xamarin.iOS10\"/>
     <file src="..\Binaries\iOS\Signed\TwistedLogik.Nucleus.XML" target="lib\Xamarin.iOS10\"/>
   </files>  
 </package>

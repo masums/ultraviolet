@@ -15,6 +15,5 @@
   </metadata>
   <files>
     <file src="..\Binaries\iOS\Signed\TwistedLogik.Ultraviolet.SDL2.UIKit.dll" target="lib\Xamarin.iOS10\"/>
-    <file src="..\Binaries\iOS\Signed\TwistedLogik.Ultraviolet.SDL2.UIKit.dll.mdb" target="lib\Xamarin.iOS10\"/>
   </files>  
 </package>
