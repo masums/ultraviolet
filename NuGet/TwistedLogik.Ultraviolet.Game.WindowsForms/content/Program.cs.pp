@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace SAFE_PROJECT_NAME
+namespace $RootNamespace$
 {
     static class Program
     {

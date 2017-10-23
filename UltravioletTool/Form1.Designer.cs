@@ -1,6 +1,6 @@
 ﻿namespace SAFE_PROJECT_NAME
 {
-    partial class UltravioletToolForm
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -26,13 +26,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UltravioletToolForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fILEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.ultravioletPanel1 = new TwistedLogik.Ultraviolet.WindowsForms.UltravioletPanel();
             this.ultravioletPanel2 = new TwistedLogik.Ultraviolet.WindowsForms.UltravioletPanel();
+            this.ultravioletPanel1 = new TwistedLogik.Ultraviolet.WindowsForms.UltravioletPanel();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -61,7 +60,7 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -82,15 +81,6 @@
             this.splitContainer1.SplitterDistance = 261;
             this.splitContainer1.TabIndex = 1;
             // 
-            // ultravioletPanel1
-            // 
-            this.ultravioletPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ultravioletPanel1.Location = new System.Drawing.Point(0, 0);
-            this.ultravioletPanel1.Name = "ultravioletPanel1";
-            this.ultravioletPanel1.Size = new System.Drawing.Size(519, 537);
-            this.ultravioletPanel1.TabIndex = 0;
-            this.ultravioletPanel1.Drawing += new System.EventHandler(this.ultravioletPanel1_Drawing);
-            // 
             // ultravioletPanel2
             // 
             this.ultravioletPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -101,17 +91,25 @@
             this.ultravioletPanel2.TabIndex = 0;
             this.ultravioletPanel2.Drawing += new System.EventHandler(this.ultravioletPanel2_Drawing);
             // 
-            // UltravioletToolForm
+            // ultravioletPanel1
+            // 
+            this.ultravioletPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ultravioletPanel1.Location = new System.Drawing.Point(0, 0);
+            this.ultravioletPanel1.Name = "ultravioletPanel1";
+            this.ultravioletPanel1.Size = new System.Drawing.Size(519, 537);
+            this.ultravioletPanel1.TabIndex = 0;
+            this.ultravioletPanel1.Drawing += new System.EventHandler(this.ultravioletPanel1_Drawing);
+            // 
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.menuStrip1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "UltravioletToolForm";
-            this.Text = "Ultraviolet Tool";
+            this.Name = "Form1";
+            this.Text = "Ultraviolet Form";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.splitContainer1.Panel1.ResumeLayout(false);

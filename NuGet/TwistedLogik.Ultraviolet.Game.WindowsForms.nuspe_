@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>TwistedLogik.Ultraviolet.Game.WindowsForms</id>
+    <version>UV_VERSION</version>
+    <authors>Cole Campbell</authors>
+    <owners>Cole Campbell</owners>
+    <licenseUrl>http://ultraviolet.tl/nuget/license.txt</licenseUrl>
+    <projectUrl>https://github.com/tlgkccampbell/ultraviolet</projectUrl>
+    <iconUrl>http://ultraviolet.tl/nuget/uv.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <title>Ultraviolet Framework Game (Windows Forms)</title>
+    <description>The Ultraviolet Framework is a .NET game development framework written in C#. This package contains all of the components needed to create a simple game for the Windows platform that is embedded within a Windows Forms application.</description>
+    <tags>ultraviolet gamedev</tags>	
+    <dependencies>
+        <dependency id="TwistedLogik.Gluon" version="UV_VERSION" />	
+        <dependency id="TwistedLogik.Nucleus" version="UV_VERSION" />
+        <dependency id="TwistedLogik.Ultraviolet.BASS" version="UV_VERSION" />
+        <dependency id="TwistedLogik.Ultraviolet.BASS.Native" version="UV_VERSION" />
+        <dependency id="TwistedLogik.Ultraviolet.Desktop" version="UV_VERSION" />
+        <dependency id="TwistedLogik.Ultraviolet" version="UV_VERSION" />
+        <dependency id="TwistedLogik.Ultraviolet.OpenGL" version="UV_VERSION" />
+        <dependency id="TwistedLogik.Ultraviolet.SDL2" version="UV_VERSION" />
+        <dependency id="TwistedLogik.Ultraviolet.SDL2.Native" version="UV_VERSION" />
+        <dependency id="TwistedLogik.Ultraviolet.WindowsForms" version="UV_VERSION" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="TwistedLogik.Ultraviolet.Game.WindowsForms\content\Program.cs.pp" target="content"/>
+    <file src="TwistedLogik.Ultraviolet.Game.WindowsForms\content\Form1.cs.pp" target="content"/>
+    <file src="TwistedLogik.Ultraviolet.Game.WindowsForms\content\Form1.Designer.cs.pp" target="content"/>
+  </files>  
+</package>
