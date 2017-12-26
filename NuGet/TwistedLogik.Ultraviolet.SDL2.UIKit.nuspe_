@@ -9,7 +9,8 @@
     <projectUrl>https://github.com/tlgkccampbell/ultraviolet</projectUrl>
     <iconUrl>http://ultraviolet.tl/nuget/uv.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>The Ultraviolet Framework is a .NET game development framework written in C#. This package contains the binding library required by SDL2 on the iOS platform.</description>
+    <title>[Deprecated] TwistedLogik.Ultraviolet.SDL2.UIKit</title>
+    <description>[Deprecated] This package is now obsolete and has been replaced with the Ultraviolet.SDL2.UIKit package.</description>
     <tags>ultraviolet gamedev</tags>	
   <dependencies/>
   </metadata>

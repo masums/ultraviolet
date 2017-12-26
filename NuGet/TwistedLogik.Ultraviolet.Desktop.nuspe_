@@ -9,7 +9,8 @@
     <projectUrl>https://github.com/tlgkccampbell/ultraviolet</projectUrl>
     <iconUrl>http://ultraviolet.tl/nuget/uv.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>The Ultraviolet Framework is a .NET game development framework written in C#. This package contains the platform compatibility shim for the Windows and Linux platforms.</description>
+    <title>[Deprecated] TwistedLogik.Ultraviolet.Desktop</title>
+    <description>[Deprecated] This package is now obsolete and has been replaced with the Ultraviolet.Shims.Desktop package.</description>
     <tags>ultraviolet gamedev</tags>	
   <dependencies>
     <dependency id="TwistedLogik.Nucleus" version="UV_VERSION" />

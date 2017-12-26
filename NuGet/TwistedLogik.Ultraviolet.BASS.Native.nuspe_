@@ -9,8 +9,8 @@
     <projectUrl>https://github.com/tlgkccampbell/ultraviolet</projectUrl>
     <iconUrl>http://ultraviolet.tl/nuget/uv.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <title>TwistedLogik.Ultraviolet.BASS Native Dependencies</title>
-    <description>The Ultraviolet Framework is a .NET game development framework written in C#. This package contains the native dependencies required by the BASS implementation of the Framework's audio subsystem.</description>
+    <title>[Deprecated] TwistedLogik.Ultraviolet.BASS Native Dependencies</title>
+    <description>[Deprecated] This package is now obsolete and has been replaced with the Ultraviolet.BASS.Native package.</description>
     <tags>ultraviolet gamedev</tags>	
     <dependencies>
         <dependency id="TwistedLogik.Ultraviolet.BASS" version="UV_VERSION" />

@@ -9,7 +9,8 @@
     <projectUrl>https://github.com/tlgkccampbell/ultraviolet</projectUrl>
     <iconUrl>http://ultraviolet.tl/nuget/uv.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>The Ultraviolet Framework is a .NET game development framework written in C#. This package contains the "Nucleus" core library, which implements basic data structures, collections, and algorithms used throughout the Framework.</description>
+    <title>[Deprecated] TwistedLogik.Nucleus</title>
+    <description>[Deprecated] This package is now obsolete and has been replaced with the Ultraviolet.Core package.</description>
     <tags>ultraviolet gamedev</tags>	
   <dependencies>
     <dependency id="Newtonsoft.Json" version="9.0.1"/>

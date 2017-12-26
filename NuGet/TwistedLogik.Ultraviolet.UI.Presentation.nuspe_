@@ -9,7 +9,8 @@
     <projectUrl>https://github.com/tlgkccampbell/ultraviolet</projectUrl>
     <iconUrl>http://ultraviolet.tl/nuget/uv.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>The Ultraviolet Framework is a .NET game development framework written in C#. This package contains the Ultraviolet Presentation Foundation, a WPF-like framework for building user interfaces in the Ultraviolet Framework.</description>
+    <title>[Deprecated] TwistedLogik.Ultraviolet.UI.Presentation</title>
+    <description>[Deprecated] This package is now obsolete and has been replaced with the Ultraviolet.Presentation package.</description>
     <tags>ultraviolet gamedev</tags>	
   <dependencies>
     <dependency id="TwistedLogik.Nucleus" version="UV_VERSION" />
